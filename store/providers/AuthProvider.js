@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 import AuthContext from '../contexts/AuthContext';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+const BASE_URL = "https://rnproject1-d84b2-default-rtdb.firebaseio.com/";
+
 class AuthProvider extends Component {
   state = {
     isAuthenticated: false,
