@@ -72,6 +72,8 @@
 		<string>Ubuntu-Bold.ttf</string>
 		<string>Ubuntu-Light.ttf</string>
 		<string>Ubuntu-Regular.ttf</string>
+		<string>antfill.ttf</string>
+		<string>antoutline.ttf</string>
 	</array>
 </dict>
 </plist>

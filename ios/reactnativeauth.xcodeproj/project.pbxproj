@@ -31,6 +31,9 @@
 		79E750F4B03846A7B4F675EF /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7F85AF8A58049DBAA9869F9 /* Ubuntu-Bold.ttf */; };
 		72CE0F56D5C946E0B78B11A4 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B325BC7551B144A3B046493E /* Ubuntu-Light.ttf */; };
 		8EB9BE04C4F84E908D08176B /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1446C227988F4D72928A6C2B /* Ubuntu-Regular.ttf */; };
+		299A397EEE144F60A741C084 /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79B79C71DA5947B4B1E42DCE /* antfill.ttf */; };
+		8056779D87814B4FB722ACC6 /* antoutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D578E6E314A2DADF8F529 /* antoutline.ttf */; };
+		BAA58CF6A2C04F08804DE08A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4BD4DE8A04315B4F387F8 /* Ionicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,9 @@
 		E7F85AF8A58049DBAA9869F9 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Bold.ttf"; path = "../assets/fonts/Ubuntu-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B325BC7551B144A3B046493E /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Light.ttf"; path = "../assets/fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		1446C227988F4D72928A6C2B /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Regular.ttf"; path = "../assets/fonts/Ubuntu-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79B79C71DA5947B4B1E42DCE /* antfill.ttf */ = {isa = PBXFileReference; name = "antfill.ttf"; path = "../node_modules/@ant-design/icons-react-native/fonts/antfill.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F3D578E6E314A2DADF8F529 /* antoutline.ttf */ = {isa = PBXFileReference; name = "antoutline.ttf"; path = "../node_modules/@ant-design/icons-react-native/fonts/antoutline.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04A4BD4DE8A04315B4F387F8 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-ionicons/fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +191,9 @@
 				E7F85AF8A58049DBAA9869F9 /* Ubuntu-Bold.ttf */,
 				B325BC7551B144A3B046493E /* Ubuntu-Light.ttf */,
 				1446C227988F4D72928A6C2B /* Ubuntu-Regular.ttf */,
+				79B79C71DA5947B4B1E42DCE /* antfill.ttf */,
+				9F3D578E6E314A2DADF8F529 /* antoutline.ttf */,
+				04A4BD4DE8A04315B4F387F8 /* Ionicons.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -299,6 +308,9 @@
 				79E750F4B03846A7B4F675EF /* Ubuntu-Bold.ttf in Resources */,
 				72CE0F56D5C946E0B78B11A4 /* Ubuntu-Light.ttf in Resources */,
 				8EB9BE04C4F84E908D08176B /* Ubuntu-Regular.ttf in Resources */,
+				299A397EEE144F60A741C084 /* antfill.ttf in Resources */,
+				8056779D87814B4FB722ACC6 /* antoutline.ttf in Resources */,
+				BAA58CF6A2C04F08804DE08A /* Ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
