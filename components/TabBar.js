@@ -13,10 +13,9 @@ const TabBar = ({state, navigation}) => {
   const renderColor = currentTab => (currentTab === selected ? 'red' : 'black');
 
   const handlePress = activeTab => {
-    console.log(activeTab);
     setSelected(activeTab);
+    
     navigation.navigate(activeTab);
-    console.log(state.index);
   };
 
   return (
@@ -25,7 +24,7 @@ const TabBar = ({state, navigation}) => {
         {routes.map(route => (
           <Tab
             tab={route}
-            // icon={route.params.icon}
+            icon={route.params.icon}
             onPress={() => handlePress(route.name)}
             color={renderColor(route.name)}
             key={route.key}></Tab>
